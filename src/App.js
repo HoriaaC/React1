@@ -32,10 +32,8 @@ class App extends Component {
     )
     return(
       <div className="App">
-        <SearchBar 
-          placeholder='search aici'
-          handleChange={this.handleChange}
-        />
+        <h1>Title</h1>
+        <SearchBar placeholder='search aici' handleChange={this.handleChange}/>
         <CardList monsters={filteredMonsters}/>
       </div>
     );

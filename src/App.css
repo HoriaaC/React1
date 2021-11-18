@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+h1{
+  font-family:'Road Rage';
+  font-size:50px;
+}
 
 .App-logo {
   height: 40vmin;
